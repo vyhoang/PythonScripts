@@ -1,4 +1,4 @@
-# program03
+# program03: Compare three numbers
 
 print('This program records goals for Soccer players '
       'and points for basketball players.')
