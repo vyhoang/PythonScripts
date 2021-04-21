@@ -1,8 +1,8 @@
-# program03: Compare three numbers
+# Written by: Vy Hoang
+# Program: Player's scores recording - Compare three numbers
+# This program records goals for Soccer players and points for basketball players.
 
-print('This program records goals for Soccer players '
-      'and points for basketball players.')
-
+# Get names and goals for three soccer players
 print('Please enter three names of Soccer players.\n')
 soccer1 = input('Name of Soccer player 1: ')
 soccer2 = input('Name of Soccer player 2: ')
@@ -13,6 +13,7 @@ goal1 = int(input('Career goals for soccer player {}: '.format(soccer1)))
 goal2 = int(input('Career goals for soccer player {}: '.format(soccer2)))
 goal3 = int(input('Career goals for soccer player {}: '.format(soccer3)))
 
+# Compare goals of three soccer players
 print('Soccer Players in sorted order:')
 if (goal1 >= goal2) and (goal1 >= goal3):
     if goal2 >= goal3:
@@ -44,7 +45,7 @@ else:  # g3>=g1 and g3 >=g2
         print(soccer2, '-', goal2)
         print(soccer1, '-', goal1)
 
-
+# Get names and goals for three basketball players
 print('Please enter three names of Basketball players.\n')
 basketball1 = input('Name of Basketball player 1: ')
 basketball2 = input('Name of Basketball player 2: ')
@@ -55,6 +56,7 @@ point1 = int(input('Career points for basketball player {}: '.format(basketball1
 point2 = int(input('Career points for basketball player {}: '.format(basketball2)))
 point3 = int(input('Career points for basketball player {}: '.format(basketball3)))
 
+# Compare goals of three basketball players
 print('Basketball Players in sorted order:')
 if (point1 >= point2) and (point1 >= point3):
     max_points = point1
